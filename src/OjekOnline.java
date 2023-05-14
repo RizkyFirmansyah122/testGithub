@@ -66,14 +66,14 @@ public class OjekOnline extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             ResultSet rs;
             String query = "INSERT INTO dataOjek";
-            System.out.println("Berhasil");
+            System.out.println("Berhasil oyaeahhhhhh");
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
        
      
          if(checkCaptcha(jTextField3.getText(),jLabel8.getText())){
-             System.out.println("Captcha Benar");
+             System.out.println("Captcha Benarin tau");
             JOptionPane.showMessageDialog(this, "Berhasil");
          }
         
